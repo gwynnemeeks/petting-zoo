@@ -1,9 +1,17 @@
+from datetime import date
+
 class Llama():
-    def __init__(self, name, species, shift):
+    def __init__(self, name, species, shift, food):
         self.name = name
         self.species = species
         self.date_added = date.today()
         self.walking = True
         self.shift = shift
+        self.food = food
 
-llama = Llama('Henrietta', 'llama')
+    def feed(self):
+        print(f'{self.name} was fed {self.food} on {date.today().strftime("%m/%d/%Y")}')
+
+llama = Llama('Henrietta', 'llama', 'afternoon', 'apples, maybe?')
+
+print(llama.feed())
