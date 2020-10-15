@@ -4,3 +4,5 @@ class Cottonmouth():
         self.species = species
         self.date_added = date.today()
         self.slithering = True
+
+cottonmouth = Cottonmouth('Emelda', cottonmouth)

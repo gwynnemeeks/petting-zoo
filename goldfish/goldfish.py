@@ -4,3 +4,5 @@ class Goldfish():
         self.species = species
         self.date_added = date.today()
         self.swimming = True
+
+goldfish = Goldfish('Goldie', goldfish)

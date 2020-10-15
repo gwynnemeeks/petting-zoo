@@ -4,3 +4,5 @@ class Koi():
         self.species = species
         self.date_added = date.today()
         self.swimming = True
+
+koi = Koi('Sesshoumaru', koi)

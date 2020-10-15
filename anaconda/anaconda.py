@@ -4,3 +4,5 @@ class Anaconda():
         self.species = species
         self.date_added = date.today()
         self.slithering = True
+
+anaconda = Anaconda('Nicki', anaconda)

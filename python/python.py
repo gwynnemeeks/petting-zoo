@@ -4,3 +4,5 @@ class Python():
         self.species = species
         self.date_added = date.today()
         self.slithering = True
+
+python = Python('John', python)
