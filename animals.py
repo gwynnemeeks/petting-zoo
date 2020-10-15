@@ -10,8 +10,7 @@ from kingsnake import Kingsnake
 from kitten import Kitten
 from koi import Koi
 from llama import Llama
-from goldfish.goldfish import Goldfish
-from goldfish.goldfish import Goldfish
+from goldfish import Goldfish
 from mallard import Mallard
 from python import Python
 from shark import Shark
@@ -32,6 +31,8 @@ mallard = Mallard('Minnie', mallard)
 python = Python('John', python)
 shark = Shark('Kaiju', shark)
 swan = Swan('Odette', swan)
+
+print(f'{goat.name} the {goat.species} is available to pet during the {goat.shift} shift.')
 
 
 
