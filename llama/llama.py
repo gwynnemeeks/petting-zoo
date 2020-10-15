@@ -5,3 +5,5 @@ class Llama():
         self.date_added = date.today()
         self.walking = True
         self.shift = shift
+
+llama = Llama('Henrietta', 'llama')

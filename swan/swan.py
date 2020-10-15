@@ -4,3 +4,5 @@ class Swan():
         self.species = species
         self.date_added = date.today()
         self.swimming = True
+
+swan = Swan('Odette', swan)

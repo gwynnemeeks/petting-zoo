@@ -4,3 +4,5 @@ class Kingsnake():
         self.species = species
         self.date_added = date.today()
         self.slithering = True
+
+kingsnake = Kingsnake('Youngdo', kingsnake)

@@ -5,3 +5,5 @@ class Dog():
         self.date_added = date.today()
         self.walking = True
         self.shift = shift
+
+dog = Dog('Zoey', dog)

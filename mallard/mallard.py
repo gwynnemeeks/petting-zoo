@@ -4,3 +4,5 @@ class Mallard():
         self.species = species
         self.date_added = date.today()
         self.swimming = True
+
+mallard = Mallard('Minnie', mallard)

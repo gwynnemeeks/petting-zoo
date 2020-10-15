@@ -5,3 +5,5 @@ class Kitten():
         self.date_added = date.today()
         self.walking = True
         self.shift = shift
+
+kitten = Kitten('Cupcake', kitten)

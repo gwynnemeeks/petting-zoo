@@ -16,23 +16,6 @@ from python import Python
 from shark import Shark
 from swan import Swan
 
-anaconda = Anaconda('Nicki', anaconda)
-cottonmouth = Cottonmouth('Emelda', cottonmouth)
-copperhead = Copperhead('Wulfgang', copperhead)
-dog = Dog('Zoey', dog)
-donkey = Donkey('Astrix', 'donkey')
-goat = Goat('Baby', 'goat')
-goldfish = Goldfish('Goldie', goldfish)
-kingsnake = Kingsnake('Youngdo', kingsnake)
-kitten = Kitten('Cupcake', kitten)
-koi = Koi('Sesshoumaru', koi)
-llama = Llama('Henrietta', 'llama')
-mallard = Mallard('Minnie', mallard)
-python = Python('John', python)
-shark = Shark('Kaiju', shark)
-swan = Swan('Odette', swan)
-
-print(f'{goat.name} the {goat.species} is available to pet during the {goat.shift} shift.')
 
 
 

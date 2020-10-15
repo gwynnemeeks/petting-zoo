@@ -4,3 +4,5 @@ class Copperhead():
         self.species = species
         self.date_added = date.today()
         self.slithering = True
+
+copperhead = Copperhead('Wulfgang', copperhead)

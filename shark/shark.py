@@ -4,3 +4,5 @@ class Shark():
         self.species = species
         self.date_added = date.today()
         self.swimming = True
+
+shark = Shark('Kaiju', shark)
