@@ -14,6 +14,9 @@ class Goat():
     def feed(self):
         print(f'{self.name} was fed {self.food} on {date.today().strftime("%m/%d/%Y")}')
 
+    def __str__(self):
+        return f"{self.name} is a {self.species}"
+
 goat = Goat('Baby', 'goat', 'morning', 'goat snacks')
 
-print(goat.feed())
+print(goat)
