@@ -1,22 +1,12 @@
 from datetime import date
+from animals import Animal
 
-class Goat():
-    def __init__(self, name, species, shift, food):
-        self.name = name
-        self.species = species
-        self.date_added = date.today()
+class Goat(Animal):
+    def __init__(self, name, species, shift, food, chip_num):
+        super().__init__(name, species, food, chip_num)
+        self.shift = shift # stays on Goat because not all animals have shifts
         self.walking = True
-        self.shift = shift
-        self.food = food
 
-# print(f'{goat.name} the {goat.species} is available to pet during the {goat.shift} shift.')
+goat = Goat('Baby', 'goat', 'morning', 'goat snacks', 75)
 
-    def feed(self):
-        print(f'{self.name} was fed {self.food} on {date.today().strftime("%m/%d/%Y")}')
-
-    def __str__(self):
-        return f"{self.name} is a {self.species}"
-
-goat = Goat('Baby', 'goat', 'morning', 'goat snacks')
-
-print(goat)
+print(goat.feed())
