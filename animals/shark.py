@@ -1,19 +1,11 @@
 from datetime import date
+from animals import Animal
 
-class Shark():
-    def __init__(self, name, species, food):
-        self.name = name
-        self.species = species
-        self.date_added = date.today()
+class Shark(Animal):
+    def __init__(self, name, species, food, chip_num):
+        super().__init__(name, species, food, chip_num)
         self.swimming = True
-        self.food = food
 
-    def feed(self):
-        print(f'{self.name} was fed {self.food} on {date.today().strftime("%m/%d/%Y")}')
+shark = Shark('Kaiju', 'shark', 'chum', 99)
 
-    def __str__(self):
-        return f"{self.name} is a {self.species}"
-
-shark = Shark('Kaiju', 'shark', 'chum')
-
-print(shark)
+print(shark.feed())
